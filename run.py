@@ -1,7 +1,14 @@
 import requests
 from requests.exceptions import RequestException
 import logging
-
+def display_header():
+    os.system('cls' if os.name == 'nt' else 'clear')  # Clear layar terminal (untuk Windows dan Unix)
+    print("\033[96m========================================")
+    print("=            Proxy Checker             =")
+    print("=        Created by Chrstvln           =")
+    print("=        https://t.me/komucing         =")
+    print("========================================\033[0m")
+    print()
 # Setup logger
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
