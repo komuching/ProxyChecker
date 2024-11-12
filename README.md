@@ -13,6 +13,7 @@ pip3 install pysocks
 Clone :
 ```
 git clone https://github.com/komuching/ProxyChecker.git
+cd ProxyChecker
 ```
 Isikan Proxy Di: proxies.txt  
 
